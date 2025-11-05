@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>
+      REGISTRATION
+    </title>
+  </head>
+ <body>
+    <link rel="stylesheet" href="style.css">
+    <center>
+      <h1 color="blue" font='times new roman'>
+        EVENT REGISTRATION FORM
+      </h1>
+    </center>
+   <form>
+   <form action="/submit-registration" method="post">
+    <label for ="name">FIRST NAME</label><br>
+    <input type="text" id="first name" name="name" required><br>
+     <label for ="name">LAST NAME</label><br>
+     <input type="text" id="last name"name="name" required><br> 
+     <label for ="email">EMAIL</label><br>
+     <input type="text" id="email"name="name" required><br>
+     <label for ="phone no">PHONE NO.</label><br>
+     <input type="tel" id="phone"name="phone" required><br>
+      <label for ="dateofbirth">DOB</label><br>
+    <input type="date" id="dateofbirth"name="dob" required><br>
+    <label for ="age">AGE</label><br>
+    <input type="number" id="age"name="age" required><br>
+    <label for ="gender">GENDER</label><br>
+    <input type="radio" value="male" name="choice" >
+    <label for ="gender">MALE</label><br>
+    <input type="radio" value="female" name="choice" required>
+    <label for ="gender">FEMALE</label><br>
+    <label for ="college name">college name:</label><br>
+    <input type="name" id="college name"name="name" required><br>
+    <label for ="event">EVENT:</label><br>
+    <select id="event" name="event" required>
+    <option value="select">SELECT</option>
+    <option value="coding">CODING</option>
+    <option value="POSTER">POSTER PRESENTATION</option>
+    <option value="SEMINAR">SEMINAR</option>
+    <option value="QUIZ">QUIZ</option>
+    <option value="WEB DEVELOPMENT">WEB DEVELOPMENT</option>
+    </select><br>
+  
+    <label for="team">TEAM:</label><br>
+    <select>
+    <option value="select">SELECT</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select><br>
+  <label for="team name">TEAM NAME:</label><br>
+  <input type="name" id="team name" name="name" required><br>
+  <label for="yes">have you participated in any hackathon</label><br>
+   <input type="radio" value="yes" name="choice" >
+   <label for="choice">yes</label><br>
+    <input type="radio" value="no" name="choice" >
+    <label for="choice">no</label><br>
+    <button TYPE="SUBMIT">REGISTER</button>
+  
+</form>
+</body>
+</html>
